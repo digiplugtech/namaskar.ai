@@ -1,0 +1,23 @@
+server:
+  host: localhost
+  port: 5000
+
+
+database:
+  mongodb:
+    host: localhost
+    port: 27017
+    user: root
+    password: root
+    db: namaskar
+    tweet_collection: tweets
+    user_collection: users
+
+  mysql:
+    host: localhost
+    port: 3306
+    user: root
+    password: root
+    db: namaskar
+    tweet_table: tweets
+    user_table: users
